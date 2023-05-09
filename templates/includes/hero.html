@@ -1,0 +1,26 @@
+
+<section class="wrapper bg-dark">
+    <div class="swiper-container swiper-thumbs-container swiper-fullscreen nav-dark" data-margin="0" data-autoplay="true" data-autoplaytime="7000" data-nav="true" data-dots="false" data-items="1" data-thumbs="true">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          {% for obj in slide  %}
+          <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="{{obj.image.url}}"></div>
+          {% endfor %}
+        </div>
+        <!--/.swiper-wrapper -->
+      </div>
+      <!-- /.swiper -->
+      <div class="swiper swiper-thumbs">
+        <div class="swiper-wrapper">
+          {% for obj in slide  %}
+          <div class="swiper-slide"><img src="{{obj.image.url}}" srcset="{{obj.image.url}}" alt="{{obj.image}}" /></div>
+          {% endfor %}
+        </div>
+        <!--/.swiper-wrapper -->
+      </div>
+      <!-- /.swiper -->
+    </div>
+    <!-- /.swiper-container -->
+  </section>
+  <!-- /section -->
+  

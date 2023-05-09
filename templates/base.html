@@ -1,0 +1,70 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ferhat Tuğrul">
+  {% block seo %}
+  <meta name="description" content="Gaziantep merkezli Diyetisyen Meltem Bincan, WhatsApp üzerinden takipli online diyet hizmeti sunuyor. Zayıflama, kilo alma, gebelik, hastalıklarda özel diyetler, detoks programları ve kurumsal beslenme danışmanlığı gibi hizmetleriyle sağlıklı beslenme konusunda destek sağlıyor. Online diyet paketleri arasında TAKİPLİ ve TAKİPSİZ seçenekler de yer alıyor. Detaylı bilgi için tıklayın.">
+  <meta name="keywords" content="diyetisyen meltem bincan,sağlıklı beslenme,zayıflama,diyet programı,beslenme danışmanlığı,online diyet,kilo vermek,diyabet,kalp sağlığı,gebelikte beslenme,çocuk beslenmesi,başarı hikayeleri,iletişim,randevu">
+  <title>Meltem Bincan Diyetisyen: Sağlıklı Beslenme, Hedeflerinize Uygun Programlar!</title>
+  {% endblock seo %}
+  <link rel="shortcut icon" href="{% static './assets/img/favicon.png' %}">
+  <link rel="stylesheet" href="{% static './assets/css/plugins.css' %}">
+  <link rel="stylesheet" href="{% static './assets/css/style.css' %}">
+  <link rel="stylesheet" href="{% static './assets/css/colors/sky.css' %}">
+  <link rel="preload" href="{% static './assets/css/fonts/urbanist.css' %}" as="style" onload="this.rel='stylesheet'">
+</head>
+
+<body>
+  <div class="page-loader"></div>
+  <div class="content-wrapper">
+    <!-- /header -->
+    <!-- /alert -->
+
+    
+    {% block hero %}
+    {% include 'includes/header.html' %}
+    {% include 'includes/hero.html' %}
+    {% endblock hero %}
+      
+    {% include 'includes/alerts.html' %}
+    
+    {% block body %}
+        
+    {% endblock body %}
+        
+  </div>
+  <!-- /.content-wrapper -->
+  
+  {% include 'includes/footer.html' %}
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <script src="{% static './assets/js/plugins.js' %}"></script>
+  <script src="{% static './assets/js/theme.js' %}"></script>
+
+<!-- 
+    
+Created by
+ ______   ______     ______     __  __     ______     ______      ______   __  __     ______     ______     __  __     __        
+/\  ___\ /\  ___\   /\  == \   /\ \_\ \   /\  __ \   /\__  _\    /\__  _\ /\ \/\ \   /\  ___\   /\  == \   /\ \/\ \   /\ \       
+\ \  __\ \ \  __\   \ \  __<   \ \  __ \  \ \  __ \  \/_/\ \/    \/_/\ \/ \ \ \_\ \  \ \ \__ \  \ \  __<   \ \ \_\ \  \ \ \____  
+ \ \_\    \ \_____\  \ \_\ \_\  \ \_\ \_\  \ \_\ \_\    \ \_\       \ \_\  \ \_____\  \ \_____\  \ \_\ \_\  \ \_____\  \ \_____\ 
+  \/_/     \/_____/   \/_/ /_/   \/_/\/_/   \/_/\/_/     \/_/        \/_/   \/_____/   \/_____/   \/_/ /_/   \/_____/   \/_____/ 
+
+fferhattugrul@gmail.com
+
+
+     -->
+</body>
+
+
+</html>
+
+

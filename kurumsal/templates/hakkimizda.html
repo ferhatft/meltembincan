@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+{%load static%}
+{% load i18n %}
+
+{% block body  %}
+<section class="wrapper bg-soft-primary">
+    <div class="container pt-10 pt-md-14 pb-20">
+      <div class="row gx-md-8 gx-lg-12 gy-3 gy-lg-0 mb-13">
+        <div class="col-lg-6">
+          <h1 class="display-1 fs-66 lh-xxs mb-0">{% trans "Meltem Bincan" %}</h1>
+        </div>
+        <!-- /column -->
+        <div class="col-lg-6">
+          <p class="lead fs-25 my-3">{% trans "Online Diyetisyen" %}</p>
+        </div>
+        <!-- /column -->
+      </div>
+      <!-- /.row -->
+      <div class="position-relative">
+        <div class="shape bg-dot primary rellax w-17 h-21" data-rellax-speed="1" style="top: -2.5rem; right: -2.7rem;"></div>
+        <figure class="rounded mb-md-n20"><img src="{% static './assets/img/nutritionist/hakkimizda.jpg' %}" srcset="{% static './assets/img/nutritionist/hakkimizda.jpg' %}" alt="" /></figure>
+      </div>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /section -->
+
+
+  <section class="wrapper bg-light">
+    <div class="container  pt-10  py-14 py-md-16">
+      
+      <div class="row text-center">
+        <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+          <h2 class="display-4 mb-9 px-xl-11">{% trans "Türkiye'nin En İyi Diyetisyen Hizmetleri - Meltem Bincan" %}</h2>
+        </div>
+        <!-- /column -->
+      </div>
+      <!-- /.row -->
+
+      <div class="row mt-8 mt-md-12">
+        <div class="col-md-10 offset-md-1 text-justify">
+          <p>Meltem Bincan, Gaziantep'te doğmuş ve Hasan Kalyoncu Üniversitesi'nden mezun olmuştur. Mezuniyetinden sonra çeşitli hastanelerde stajyer diyetisyen olarak görev yapmıştır. Daha sonra Gaziantep Üniversitesi Merkezi Yemekhanesi'nde çalışmaya başlamış ve çeşitli hastanelerde klinik ve toplu beslenme sistemleri üzerine çalışmıştır.</p>
+          
+          <p>Meltem Bincan, online diyet hizmetleri sunan bir diyetisyen olarak öne çıkıyor. "Takipli Online Diyet" ve "Takipsiz Online Diyet" programları, "Gebelik ve Doğum Sonrası Online Diyet", "Hastalıklarda Online Diyet", "Detoks Programları", "Kurumsal Beslenme Danışmanlığı" ve "Catering - Menü Planlama" hizmetleri arasında yer almaktadır.</p>
+          
+        </div>
+        <!-- /column -->
+      </div>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /section -->
+
+    
+  <section class="wrapper">
+    <div class="container py-14 py-md-16">
+      <div class="row text-center">
+        <div class="col-md-11 col-lg-9 col-xl-8 col-xxl-7 mx-auto position-relative">
+          <img src="./assets/img/svg/doodle3.svg" class="h-11 position-absolute d-none d-lg-block" style="top: -20%; right: -12%" alt="">
+          <img src="./assets/img/svg/doodle9.svg" class="h-17 position-absolute d-none d-lg-block" style="bottom: 5%; left: -17%" alt="">
+          
+          <img src="{% static './assets/img/icons/lineal/list.svg' %}" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
+          <h2 class="display-4 mb-4 px-lg-14">Hizmetlerimiz</h2>
+          <p class=" mb-12 text-center">  <span class="text-gradient gradient-7">Diyetisyen Meltem Bincan'ın</span>,sunduğu çeşitli hizmetlerle sağlık ve zindelik yolculuğunuzda size rehberlik etmektedir. İşte Meltem Bincan'ın sunduğu hizmetlerden bazıları.</p>
+        </div>
+        <!-- /column -->
+      </div>
+      <!-- /.row -->
+      <div class="row d-flex align-items-start">
+        <div class="col-lg-6 position-lg-sticky" style="top: 8rem;">
+          <figure><img src="{% static './assets/img/nutritionist/hakkimizda-2.jpg' %}" srcset="{% static './assets/img/nutritionist/hakkimizda-2.jpg' %}" alt=""></figure>
+        </div>
+        <!-- /column -->
+        <div class="col-lg-5 ms-auto">
+          <div class="d-flex flex-row mb-8">
+            <div>
+              <div>
+                <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">01</span></span>
+              </div>
+            </div>
+            <div>
+              <h4 class="fs-20">Takipsiz Online Diyet programı</h4>
+              <p>Takipsiz Online Diyet programı, bir seferlik bir liste hazırlamayı içermekte ve WhatsApp destekli takip programı sunmamaktadır</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row mb-8">
+            <div>
+              <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">02</span></span>
+            </div>
+            <div>
+              <h4 class="fs-20">Gebelik ve Doğum Sonrası Online Diyet programı</h4>
+              <p>Gebelik ve Doğum Sonrası Online Diyet programı, sağlıklı bir gebelik ve doğum için uygun beslenme planları sunmaktadır.</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row mb-8">
+            <div>
+              <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">03</span></span>
+            </div>
+            <div>
+              <h4 class="fs-20">Hastalıklarda Online Diyet programı</h4>
+              <p>Hastalıklarda Online Diyet programı, çeşitli hastalıklar için özel beslenme planları sunmaktadır.</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row mb-8">
+            <div>
+              <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">04</span></span>
+            </div>
+            <div>
+              <h4 class="fs-20">Detoks Programları programı</h4>
+              <p>Detoks Programları programı, zayıflama, arınma, toksinlerden arınma ve sağlıklı beslenmeye geçiş yapmak isteyenler için özel detoks tarifleri içermektedir.</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row mb-8">
+            <div>
+              <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">05</span></span>
+            </div>
+            <div>
+              <h4 class="fs-20">Kurumsal Beslenme Danışmanlığı programı</h4>
+              <p>Kurumsal Beslenme Danışmanlığı programı, kurumların çalışanlarının motivasyonunu, verimliliğini ve sağlıklarını korumak için kişiye özel beslenme programları hazırlamaktadır</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row mb-8">
+            <div>
+              <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">06</span></span>
+            </div>
+            <div>
+              <h4 class="fs-20">Catering - Menü Planlama programı</h4>
+              <p>Catering - Menü Planlama programı, özel ve devlet kurumlarıyla yapılan görüşmeler sonucunda uygun çeşitte ve uygun beslenme içeriğine sahip kalorileri hesaplanmış menüler planlamaktadır.</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row mb-8">
+            <div>
+              <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">07</span></span>
+            </div>
+            <div>
+              <h4 class="fs-20">PLUS Online Diyet programı</h4>
+              <p>PLUS Online Diyet programı, zayıflama ve kilo alma hedefleri için WhatsApp destekli görüşmelerle 4 haftalık bir online beslenme ve diyet danışmanlığı hizmeti sunmaktadır. Her hafta yapılan seanslarla toplamda 4 seansı kapsamaktadır ve özel diyetler, detoks diyetleri ve hızlandırıcı programlar paketinize dahildir. Programın özellikleri arasında, özel isteklerinize göre listeniz planlanırken sorulması ve kontrol seanslarında görüntülü ve ya sesli telefon görüşmeleri yapılması bulunmaktadır.</p>
+            </div>
+          </div>
+        </div>
+        <!-- /column -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /section -->
+{% endblock body  %}

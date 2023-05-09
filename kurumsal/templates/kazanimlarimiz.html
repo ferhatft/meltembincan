@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extracss %}
+<link
+rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+/>{% endblock extracss %}
+
+{% block body %}
+
+{% include 'includes/banner.html' %}
+
+<section class="hizmet-kazanim-sayfa">
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-md-4">
+          <ul class="nav nav-pills">
+            
+            {% for obj in kazanimlar  %}
+            <li  {% if forloop.counter == 1 %}class="active"{% endif %}>
+              <a data-toggle="pill" href="#menu{{obj.id}}">
+                {{obj.title}}
+                <img src="{% static 'images/header/page/kazanim-right.svg' %}" alt=""
+              /></a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <div class="tab-content">
+
+            
+            {% for obj in kazanimlar  %}
+            <div id="menu{{obj.id}}" class="tab-pane fade in  {% if forloop.counter == 1 %}active{% endif %}">
+              <h3>{{obj.title}}</h3>
+              <p>{{obj.decription|safe}} </p>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="sikca-sorulan-sorular">
+        <div class="sorular-baslik">
+          <h2>Sıkça Sorulan Sorular</h2>
+          <p>Buraya Sectionla Alakalı Alt Metin Girilebilir</p>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          
+          {% for obj in faq  %}
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      {{obj.question|safe}}
+                  </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                      {{obj.answer|safe}}
+                  </div>
+              </div>
+          </div> 
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock body %}
+
+
+{% block extrajs %}
+<!-- Script -->
+<!-- Kazanım-Hizmetler -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- Script -->
+{% endblock extrajs %}

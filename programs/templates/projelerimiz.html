@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extracss %}
+        
+<!-- Fancybox -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+{% endblock extracss %}
+{% block body %}
+
+<section class="referans-projeler-page">
+    <div class="container">
+        <div class="projeler-page">
+            {% for obj in projelerimiz %}
+            <div class="proje-page">
+                <div class="proje-page-pic">
+                    {% for inlineobj in obj.ProjelerimizModelGaleri.all  %}
+                    <a data-fancybox="proje-{{obj.id}}" data-src="{{inlineobj.image.url}}">
+                        <img src="{{inlineobj.image.url}}" />
+                    </a>
+                    {% endfor %}
+                </div>
+                <div class="proje-page-icerik">
+                    <h3>{{obj.title|title}}</h3>
+                    <p>{{obj.decription|safe}}</p>
+                    <span>{{obj.created_date.date}}</span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% endblock body %}
+
+
+{% block extrajs %}
+        
+<!-- Fancybox -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script type="module">
+    import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js";
+</script>
+{% endblock extrajs %}

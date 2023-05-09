@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+
+{% include 'includes/banner.html' %}
+
+<section class="sayfa-taslak">
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-md-9 sayfa-left pb-5">
+          <div class="urunler-sayfa">
+            {% for obj in products %}
+            <div class="urun">
+              <a href="{{obj.get_absolute_url}}">
+                <img src="{{obj.PortfolioModelGaleri.first.image.url}}" alt="" />
+                <span> {{obj.title}} </span>
+              </a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% include 'includes/blogsidebar.html' %}
+      </div>
+    </div>
+  </section>
+
+{% endblock body %}

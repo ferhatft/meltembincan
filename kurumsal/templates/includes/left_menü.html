@@ -1,0 +1,44 @@
+<div class="col-lg-3">
+    <div class="subMenu">
+        <ul>
+            <li class="title">KURUMSAL</li>
+            <li>
+                <a href="{% url 'hakkimizda' %}" class="{% if request.path == hakkimizda %}active{% endif %}">
+                    Hakkımızda
+                    <i class="fi fi-rr-angle-small-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="{% url 'sertifikalarimiz' %}" class="{% if request.path == sertifikalarimiz %}active{% endif %}">
+                    Sertifikalarımız
+                    <i class="fi fi-rr-angle-small-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="{% url 'hizmetlerimiz' %}" class="{% if request.path == hizmetlerimiz %}active{% endif %}">
+                    Hizmetlerimiz
+                    <i class="fi fi-rr-angle-small-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="{% url 'ekibimiz' %}" class="{% if request.path == ekibimiz %}active{% endif %}">
+                    Ekibimiz
+                    <i class="fi fi-rr-angle-small-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="{% url 'nedenbiz' %}" class="{% if request.path == nedenbiz %}active{% endif %}">
+                    Neden Biz ?
+                    <i class="fi fi-rr-angle-small-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="{% url 'galeri' %}" class="{% if request.path == galeri %}active{% endif %}">
+                    Galeri
+                    <i class="fi fi-rr-angle-small-right"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+</div>

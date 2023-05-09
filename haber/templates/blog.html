@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block hero %}
+{% include 'includes/header-dark.html' %}
+{% endblock hero %}
+
+{% block body %}
+
+<section class="wrapper bg-pale-sky">
+  <div class="container pt-10 pb-19 pt-md-14 pb-md-20 text-center">
+    <div class="row">
+      <div class="col-md-7 col-lg-6 col-xl-5 mx-auto">
+        <h1 class="display-1 mb-3">{% trans "Blog" %}</h1>
+        <p class="lead px-lg-5 px-xxl-8">{% trans "Jokerrafting ve ortakları hakkında haberler, güncellemeler ve makaleler." %}</p>
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+
+
+<section class="wrapper bg-light">
+  <div class="container pb-14 pb-md-16">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="blog classic-view mt-n17">
+          {% for obj in blogs  %}
+          <article class="post">
+            <div class="card">
+              <figure class="card-img-top overlay overlay-1 hover-scale"><a class="link-dark" href="{{obj.get_absolute_url}}"><img src="{{obj.image.url}}" alt="{{obj.image}}"><span class="bg"></span></a>
+                <figcaption>
+                  <h5 class="from-top mb-0">{% trans "Daha Fazla" %}</h5>
+                </figcaption>
+              </figure>
+              <div class="card-body">
+                <div class="post-header">
+                  <div class="post-category text-line">
+                    <a href="#" class="hover" rel="category">{% trans "JokerRafting Haberler" %}</a>
+                  </div>
+                  <!-- /.post-category -->
+                  <h2 class="post-title mt-1 mb-0"><a class="link-dark" href="./blog-post.html">{{obj.title}}</a></h2>
+                </div>
+                <!-- /.post-header -->
+                <div class="post-content">
+                  <p> {{obj.content|safe|truncatewords:50}} </p>
+                </div>
+                <!-- /.post-content -->
+              </div>
+              <!--/.card-body -->
+              <div class="card-footer">
+                <ul class="post-meta d-flex mb-0">
+                  <li class="post-date"><i class="uil uil-calendar-alt"></i><span>{{obj.created_date}}</span></li>
+                </ul>
+                <!-- /.post-meta -->
+              </div>
+              <!-- /.card-footer -->
+            </div>
+            <!-- /.card -->
+          </article>
+          <!-- /.post -->
+          {% endfor %}
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+
+{% endblock body %}

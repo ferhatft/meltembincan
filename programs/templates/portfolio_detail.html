@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+
+{% include 'includes/banner.html' %}
+
+<section class="sayfa-taslak">
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-md-9 sayfa-left pb-5">
+            <div class="sayfa-icerik-yazi">
+                <p> {{product.decription|safe}}</p>
+            </div>
+            <div class="urunler-sayfa">
+                {% for obj in product.PortfolioModelGaleri.all  %}
+                    <div class="urun">
+                    <a href="javascript:void(0);">
+                        <img
+                        src="{{obj.image.url}}"
+                        alt=""
+                        />
+                        <span> {{obj.title|safe}} </span>
+                    </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% include 'includes/blogsidebar.html' %}
+
+      </div>
+    </div>
+  </section>
+
+{% endblock body %}

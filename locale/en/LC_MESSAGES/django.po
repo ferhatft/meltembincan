@@ -1,0 +1,606 @@
+# This file was generated from en.xlsx
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-27 19:13+0300\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: xls-to-po 1.0\n"
+
+msgid "Yıllık Deneyim"
+msgstr "Years of Experience"
+
+msgid "Hakkımızda"
+msgstr "About us"
+
+msgid ""
+"Joker Rafing, Antalya'nın köprülü kanyonu ve Tazı Kanyonun'da rafing turları"
+" düzenleyen önde gelen bir şirket. Müşterilerimize profesyonel bir hizmet "
+"sunuyoruz ve macera severleri unutulmaz anılarla buluşturuyoruz."
+msgstr ""
+"Joker Rafing is a leading company that organizes rafting tours in Antalya's "
+"Köprülü Canyon and Tazı Canyon. We offer a professional service to our "
+"customers and bring adventure lovers together with unforgettable memories."
+
+msgid ""
+"Eşsiz rotalarımız ve yüksek kaliteli ekipmanlarımızla, rafting turlarımızı "
+"heyecan dolu bir macera haline getiriyoruz. Ayrıca, Jeep Safari, Double "
+"Impact, Buggy Rafting ve Big Kral turları gibi diğer macera turları da "
+"sunuyoruz."
+msgstr ""
+"With our unique routes and high quality equipment, we make our rafting tours"
+" an exciting adventure. We also offer other adventure tours such as Jeep "
+"Safari, Double Impact, Buggy Rafting and Big King tours."
+
+msgid ""
+"Joker Rafting, müşteri memnuniyetine büyük önem verir ve her türlü ihtiyaca "
+"uygun özelleştirilebilir turlar sunar. Her turumuzda güvenliği en üst "
+"düzeyde tutuyoruz ve deneyimli rehberlerimiz, müşterilerimize unutulmaz bir "
+"macera yaşatmak için ellerinden gelenin en iyisini yapıyorlar."
+msgstr ""
+"Joker Rafting attaches great importance to customer satisfaction and offers "
+"customizable tours to suit every need. We keep safety at the highest level "
+"on every tour and our experienced guides do their best to give our clients "
+"an unforgettable adventure."
+
+msgid ""
+"Antalya'nın doğal güzelliklerini ve macera dolu turizm imkanlarını keşfetmek"
+" için, Joker Rafting ile tanışın ve hayatınızın en unutulmaz anılarına imza "
+"atın!"
+msgstr ""
+"To discover the natural beauties and adventurous tourism opportunities of "
+"Antalya, meet Joker Rafting and make the most unforgettable memories of your"
+" life!"
+
+msgid "Turlarımız"
+msgstr "Our tours"
+
+msgid "Password"
+msgstr "Password"
+
+msgid ""
+"Raw passwords are not stored, so there is no way to see this user’s "
+"password, but you can change the password using <a href=\"{}\">this "
+"form</a>."
+msgstr ""
+"Raw passwords are not stored, so there is no way to see this user's "
+"password, but you can change the password using <a href=\"{}\">this "
+"form</a>."
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid ""
+"Jokerrafting ve ortakları hakkında haberler, güncellemeler ve makaleler."
+msgstr "News, updates and articles about Jokerrafting and its partners."
+
+msgid "Daha Fazla"
+msgstr "More"
+
+msgid "JokerRafting Haberler"
+msgstr "JokerRafting News"
+
+msgid "Tarih"
+msgstr "History"
+
+msgid "Tümü"
+msgstr "all"
+
+msgid "İletişime Geç"
+msgstr "Contact Us"
+
+msgid ""
+"Herhangi bir sorunuz var mı? İletişim formumuzdan bize ulaşın, kısa süre "
+"içinde size geri döneceğiz."
+msgstr ""
+"Do you have any question? Contact us via our contact form and we will get "
+"back to you shortly."
+
+msgid "Seni Bekliyoruz"
+msgstr "We are waiting for you"
+
+msgid "Antalya'nın Doğal Güzelliklerinde Macera Dolu Bir Tur!"
+msgstr "A Tour Full of Adventure in the Natural Beauties of Antalya!"
+
+msgid ""
+"Joker Rafting ile iletişime geçmek için, web sitemizdeki formu doldurabilir "
+"veya telefon numaralarımızdan birini arayabilirsiniz. Antalya'nın doğal "
+"güzelliklerini ve macera dolu turizm imkanlarını keşfetmek için, Joker "
+"Rafting ile tanışın ve hayatınızın en unutulmaz anılarına imza atın!"
+msgstr ""
+"To contact Joker Rafting, you can fill out the form on our website or call "
+"one of our phone numbers. To discover the natural beauties and adventurous "
+"tourism opportunities of Antalya, meet Joker Rafting and make the most "
+"unforgettable memories of your life!"
+
+msgid "Telefon"
+msgstr "Telephone"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Joker Rafting"
+msgstr "Joker Rafting"
+
+msgid "Türkiye'nin En İyi Rafting Hizmeti"
+msgstr "Turkey's Best Rafting Service"
+
+msgid "Türkiye'nin En İyi Rafting Hizmeti - Joker Rafting"
+msgstr "Turkey's Best Rafting Service - Joker Rafting"
+
+msgid ""
+"Joker Rafting, macera tutkunlarının Türkiye'de tercih ettiği en iyi rafting "
+"hizmeti olarak öne çıkıyor. Eğlence ve adrenalin dolu bir deneyim yaşamak "
+"isteyenler için en doğru adres olan Joker Rafting, profesyonel ekibi ve "
+"kaliteli ekipmanlarıyla öne çıkıyor. Siz de Türkiye'de rafting deneyiminizi "
+"Joker Rafting ile unutulmaz kılabilirsiniz."
+msgstr ""
+"Joker Rafting stands out as the best rafting service preferred by adventure "
+"lovers in Turkey. Joker Rafting, which is the right address for those who "
+"want to have an experience full of fun and adrenaline, stands out with its "
+"professional team and quality equipment. You can make your rafting "
+"experience in Turkey unforgettable with Joker Rafting."
+
+msgid "Joker Rafting'in Sunduğu Hizmetler"
+msgstr "Services Offered by Joker Rafting"
+
+msgid ""
+"Joker Rafting, müşterilerine benzersiz bir deneyim sunabilmek için birçok "
+"hizmeti bir arada sunuyor. İşte bu hizmetlerden bazıları:"
+msgstr ""
+"Joker Rafting offers many services together in order to offer a unique "
+"experience to its customers. Here are some of these services:"
+
+msgid ""
+"Profesyonel Rehberlik: Joker Rafting, deneyimli ve eğitimli rehberlerle "
+"çalışarak, rafting deneyiminizi güvenli ve keyifli hale getiriyor."
+msgstr ""
+"Professional Guidance: Joker Rafting works with experienced and trained "
+"guides, making your rafting experience safe and enjoyable."
+
+msgid ""
+"Kaliteli Ekipman: Joker Rafting, güvenliğinizi ön planda tutarak, en "
+"kaliteli rafting ekipmanlarını kullanıyor. Bu sayede hem eğlenceli hem de "
+"güvenli bir deneyim yaşayabilirsiniz."
+msgstr ""
+"Quality Equipment: Joker Rafting uses the best quality rafting equipment, "
+"keeping your safety in the foreground. In this way, you can have both a fun "
+"and safe experience."
+
+msgid ""
+"Çeşitli Rafting Parkurları: Joker Rafting, Türkiye'nin en güzel nehirlerinde"
+" farklı zorluk seviyelerine sahip parkurlar sunuyor. Böylece, her seviyeden "
+"rafting tutkunu için uygun bir seçenek mevcut."
+msgstr ""
+"Various Rafting Tracks: Joker Rafting offers tracks with different "
+"difficulty levels on the most beautiful rivers of Turkey. Thus, there is a "
+"suitable option for rafting enthusiasts of all levels."
+
+msgid ""
+"Grup İndirimleri: Joker Rafting, arkadaşlarınız veya ailenizle rafting "
+"yapmak isterseniz, grup indirimleri sunarak bütçenize katkıda bulunuyor."
+msgstr ""
+"Group Discounts: Joker Rafting contributes to your budget by offering group "
+"discounts if you want to raft with your friends or family."
+
+msgid "Joker Rafting ile Türkiye'nin Muhteşem Nehirlerini Keşfedin"
+msgstr "Discover Turkey's Magnificent Rivers with Joker Rafting"
+
+msgid ""
+"Joker Rafting, Türkiye'nin en güzel nehirlerinde rafting deneyimi sunarak, "
+"doğanın eşsiz güzelliklerini keşfetme şansı tanıyor. Türkiye'nin el değmemiş"
+" nehirlerinde, suyun heyecanını ve doğanın huzurunu bir arada yaşayarak, "
+"unutulmaz anılar biriktirebilirsiniz."
+msgstr ""
+"Joker Rafting offers a rafting experience in Turkey's most beautiful rivers,"
+" giving you the chance to discover the unique beauties of nature. In "
+"Turkey's untouched rivers, you can experience the excitement of water and "
+"the tranquility of nature together, and collect unforgettable memories."
+
+msgid "Deneyimli ve Uzman Ekip"
+msgstr "Experienced and Expert Team"
+
+msgid ""
+"Joker Rafting'de çalışan rehberler ve personel, rafting konusunda uzman ve "
+"deneyimlidir. Bu sayede, rafting sırasında güvende hissedeceksiniz ve "
+"eğlenmeniz için gereken tüm destek sağlanacaktır."
+msgstr ""
+"The guides and staff working at Joker Rafting are experts and experienced in"
+" rafting. In this way, you will feel safe while rafting and all the support "
+"you need to have fun will be provided."
+
+msgid "Güvenlik Önceliği"
+msgstr "Security Priority"
+
+msgid ""
+"Joker Rafting, müşterilerinin güvenliğini en önemli öncelik olarak görüyor. "
+"Bu nedenle, tüm ekipmanlar düzenli olarak kontrol edilir ve gerekli güvenlik"
+" önlemleri alınır."
+msgstr ""
+"Joker Rafting considers the safety of its customers as the top priority. "
+"Therefore, all equipment is checked regularly and necessary safety "
+"precautions are taken."
+
+msgid "Farklı Zorluk Seviyeleri"
+msgstr "Different Difficulty Levels"
+
+msgid ""
+"Joker Rafting, her seviyeden rafting tutkunu için uygun parkurlar sunar. "
+"İster deneyimsiz bir başlangıççı olun, ister deneyimli bir profesyonel, "
+"herkes için uygun bir rafting deneyimi mevcuttur"
+msgstr ""
+"Joker Rafting offers suitable tracks for rafting enthusiasts of all levels. "
+"Whether you're a novice beginner or a seasoned professional, there's a "
+"rafting experience for everyone."
+
+msgid "Güvenli ve Eğlenceli Bir Rafting Deneyimi İçin Joker Rafting"
+msgstr "Joker Rafting for a Safe and Fun Rafting Experience"
+
+msgid ""
+"Joker Rafting, güvenli ve eğlenceli bir rafting deneyimi yaşamak "
+"isteyenlerin tercihi ediyor. Profesyonel ekibimiz ve yüksek standartlarda "
+"sunduğumuz hizmetlerle, Türkiye'deki en iyi rafting deneyimini yaşamanız "
+"için sizleri bekliyoruz."
+msgstr ""
+"Joker Rafting is preferred by those who want to have a safe and fun rafting "
+"experience. We are waiting for you to experience the best rafting experience"
+" in Turkey with our professional team and the services we provide at high "
+"standards."
+
+msgid "Neden Joker Rafting'i Tercih Etmelisiniz?"
+msgstr "Why Should You Prefer Joker Rafting?"
+
+msgid ""
+"Joker Rafting, müşteri memnuniyetini ön planda tutarak, Türkiye'deki rafting"
+" deneyiminizi unutulmaz kılmak için birçok sebep sunuyor"
+msgstr ""
+"Joker Rafting, prioritizing customer satisfaction, offers many reasons to "
+"make your rafting experience in Turkey unforgettable."
+
+msgid "Galeri"
+msgstr "Gallery"
+
+msgid "Hepsi"
+msgstr "All"
+
+msgid "Account Inactive"
+msgstr "Account Inactive"
+
+msgid "This account is inactive."
+msgstr "This account is inactive."
+
+msgid "E-mail Addresses"
+msgstr "Email Addresses"
+
+msgid "The following e-mail addresses are associated with your account:"
+msgstr "The following e-mail addresses are associated with your account:"
+
+msgid "Verified"
+msgstr "Verified"
+
+msgid "Unverified"
+msgstr "Unverified"
+
+msgid "Primary"
+msgstr "primary"
+
+msgid "Make Primary"
+msgstr "Make Primary"
+
+msgid "Re-send Verification"
+msgstr "Re-send Verification"
+
+msgid "Remove"
+msgstr "remove"
+
+msgid "Warning:"
+msgstr "Warning:"
+
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, "
+"etc."
+msgstr ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, "
+"etc."
+
+msgid "Add E-mail Address"
+msgstr "Add E-mail Address"
+
+msgid "Add E-mail"
+msgstr "Add E-mail"
+
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr "Do you really want to remove the selected e-mail address?"
+
+msgid "Hello from %(site_name)s!"
+msgstr "Hello from %(site_name)s!"
+
+msgid ""
+"Thank you for using %(site_name)s!\n"
+"%(site_domain)s"
+msgstr "Thank you for using %(site_name)s! %(site_domain)s"
+
+msgid ""
+"You're receiving this e-mail because user %(user_display)s has given your e-mail address to register an account on %(site_domain)s.\n"
+"\n"
+"To confirm this is correct, go to %(activate_url)s"
+msgstr ""
+"You're receiving this e-mail because user %(user_display)s has given your "
+"e-mail address to register an account on %(site_domain)s. To confirm this is"
+" correct, go to %(activate_url)s"
+
+msgid "Please Confirm Your E-mail Address"
+msgstr "Please Confirm Your E-mail Address"
+
+msgid ""
+"You're receiving this e-mail because you or someone else has requested a password for your user account.\n"
+"It can be safely ignored if you did not request a password reset. Click the link below to reset your password."
+msgstr ""
+"You're receiving this e-mail because you or someone else has requested a "
+"password for your user account. It can be safely ignored if you did not "
+"request a password reset. Click the link below to reset your password."
+
+msgid "In case you forgot, your username is %(username)s."
+msgstr "In case you forgot, your username is %(username)s."
+
+msgid "Password Reset E-mail"
+msgstr "Password Reset"
+
+msgid "Confirm E-mail Address"
+msgstr "Confirm Email Address"
+
+msgid ""
+"Please confirm that <a\n"
+"                            href=\"mailto:%(email)s\">%(email)s</a> is an e-mail address for user\n"
+"                        %(user_display)s."
+msgstr ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+
+msgid "Confirm"
+msgstr "Confirm"
+
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a\n"
+"                            href=\"%(email_url)s\">issue a new\n"
+"                            e-mail confirmation request</a>."
+msgstr ""
+"This e-mail confirmation link expired or is invalid. Please <a "
+"href=\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+
+msgid "Sign Out"
+msgstr "Sign Out"
+
+msgid "Are you sure you want to sign out?"
+msgstr "Are you sure you want to sign out?"
+
+msgid "You cannot remove your primary e-mail address (%(email)s)."
+msgstr "You cannot remove your primary e-mail address (%(email)s)."
+
+msgid "Confirmation e-mail sent to %(email)s."
+msgstr "Confirmation e-mail sent to %(email)s."
+
+msgid "You have confirmed %(email)s."
+msgstr "You have confirmed %(email)s."
+
+msgid "Removed e-mail address %(email)s."
+msgstr "Removed e-mail address %(email)s."
+
+msgid "Successfully signed in as %(name)s."
+msgstr "Successfully signed in as %(name)s."
+
+msgid "You have signed out."
+msgstr "You have signed out."
+
+msgid "Password successfully changed."
+msgstr "Password successfully changed."
+
+msgid "Password successfully set."
+msgstr "Password successfully set."
+
+msgid "Primary e-mail address set."
+msgstr "Primary e-mail address set."
+
+msgid "Your primary e-mail address must be verified."
+msgstr "Your primary e-mail address must be verified."
+
+msgid "Change Password"
+msgstr "Change Password"
+
+msgid "Forgot Password?"
+msgstr "Forgot Password?"
+
+msgid "Password Reset"
+msgstr "Password Reset"
+
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you"
+" an e-mail allowing you to reset it."
+msgstr ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you"
+" an e-mail allowing you to reset it."
+
+msgid "Reset My Password"
+msgstr "Reset My Password"
+
+msgid ""
+"Please contact us if you have any trouble resetting your\n"
+"                        password."
+msgstr "Please contact us if you have any trouble resetting your password."
+
+msgid ""
+" We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+
+msgid "Bad Token"
+msgstr "Bad Token"
+
+msgid ""
+"The password reset link was invalid, possibly because it has already been used.\n"
+"                        Please request a <a href=\"%(passwd_reset_url)s\">new password reset</a>."
+msgstr ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a <a href=\"%(passwd_reset_url)s\">new password "
+"reset</a>."
+
+msgid "change password"
+msgstr "change password"
+
+msgid "Your password is now changed."
+msgstr "Your password is now changed."
+
+msgid "Set Password"
+msgstr "Set Password"
+
+msgid "Sign Up"
+msgstr "Sign Up"
+
+msgid "Sign Up Closed"
+msgstr "Sign Up Closed"
+
+msgid "We are sorry, but the sign up is currently closed."
+msgstr "We are sorry, but the sign up is currently closed."
+
+msgid "Note"
+msgstr "note"
+
+msgid "you are already logged in as %(user_display)s."
+msgstr "you are already logged in as %(user_display)s."
+
+msgid "Verify Your E-mail Address"
+msgstr "Verify Your E-mail Address"
+
+msgid ""
+"We have sent an e-mail to you for verification. Follow the link provided to\n"
+"                        finalize the signup process. Please contact us if you do not receive it within a few\n"
+"                        minutes."
+msgstr ""
+"We have sent an e-mail to you for verification. Follow the link provided to "
+"finalize the signup process. Please contact us if you do not receive it "
+"within a few minutes."
+
+msgid ""
+"This part of the site requires us to verify that\n"
+"                        you are who you claim to be. For this purpose, we require that you\n"
+"                        verify ownership of your e-mail address. "
+msgstr ""
+" This part of the site requires us to verify that you are who you claim to "
+"be. For this purpose, we require that you verify ownership of your e-mail "
+"address."
+
+msgid ""
+"We have sent an e-mail to you for\n"
+"                        verification. Please click on the link inside this e-mail. Please\n"
+"                        contact us if you do not receive it within a few minutes."
+msgstr ""
+"We have sent an e-mail to you for verification. Please click on the link "
+"inside this e-mail. Please contact us if you do not receive it within a few "
+"minutes."
+
+msgid ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-mail\n"
+"                            address</a>."
+msgstr ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your "
+"e-mail address</a>."
+
+msgid "İletişime geç."
+msgstr "Get in touch."
+
+msgid "Hızlı geri dönüş almak için bize mail atabilirisiniz."
+msgstr "You can send us an e-mail to get a quick response."
+
+msgid "Bize mail at"
+msgstr "Email us"
+
+msgid "İletisim"
+msgstr "Communication"
+
+msgid "Hızlı Erişim"
+msgstr "Fast access"
+
+msgid "İletişim"
+msgstr "Communication"
+
+msgid "Güncel bİlgililere erişin"
+msgstr "Access up-to-date information"
+
+msgid "Mail listesine katılarak  fırsatlardan ilk siz haberdar olun."
+msgstr "Be the first to know about opportunities by joining the mailing list."
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Anasayfa"
+msgstr "Home page"
+
+msgid "İletisim Bilgileri"
+msgstr "Contact information"
+
+msgid "Bizi Takip Et"
+msgstr "Follow us"
+
+msgid "OpenID Sign In"
+msgstr "OpenID Sign In"
+
+msgid "Social Network Login Failure"
+msgstr "Social Network Login Failure"
+
+msgid ""
+"An error occurred while attempting to login via your social network account."
+msgstr ""
+"An error occurred while attempting to login via your social network account."
+
+msgid "Account Connections"
+msgstr "Account Connections"
+
+msgid ""
+"You can sign in to your account using any of the following third party "
+"accounts:"
+msgstr ""
+"You can sign in to your account using any of the following third party "
+"accounts:"
+
+msgid ""
+"You currently have no social network accounts connected to this account."
+msgstr ""
+"You currently have no social network accounts connected to this account."
+
+msgid "Add a 3rd Party Account"
+msgstr "Add a 3rd Party Account"
+
+msgid "Login Cancelled"
+msgstr "Login Canceled"
+
+msgid ""
+"You decided to cancel logging in to our site using one of your existing "
+"accounts. If this was a mistake, please proceed to <a "
+"href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+"You decided to cancel logging in to our site using one of your existing "
+"accounts. If this was a mistake, please proceed to <a "
+"href=\"%(login_url)s\">sign in</a>."
+
+msgid "The social account has been connected."
+msgstr "The social account has been connected."
+
+msgid "The social account is already connected to a different account."
+msgstr "The social account is already connected to a different account."
+
+msgid "The social account has been disconnected."
+msgstr "The social account has been disconnected."
+
+msgid "Signup"
+msgstr "Signup"
+
+msgid ""
+"You are about to use your %(provider_name)s account to login to\n"
+"%(site_name)s. As a final step, please complete the following form:"
+msgstr ""
+"You are about to use your %(provider_name)s account to login to "
+"%(site_name)s. As a final step, please complete the following form:"

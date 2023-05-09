@@ -1,0 +1,17 @@
+{% load i18n %}
+
+{% if messages %}
+  {% for message in messages %}
+
+
+<div class="alert alert-{{message.tags}} alert-icon alert-dismissible fade show" role="alert">
+    {% if message.tags == 'success' %}
+    <i class="uil uil-check-circle"></i> {{message.message}}
+    {% else %}
+    <i class="uil uil-times-circle">  {{message.message}}<a href="{% url 'iletisim' %}" class="alert-link hover"> {% trans "İletişime geç." %}</a>
+    {% endif %}
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+  {% endfor %}
+{% endif %}

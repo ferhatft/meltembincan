@@ -30,7 +30,7 @@ class Contact(models.Model):
     name = models.CharField(max_length=30,verbose_name="Tam isim *")
     email = models.EmailField(verbose_name="Email *")
     phone = models.CharField(max_length=30,blank=True, null=True,verbose_name="Telefon Numarası *")
-    birthday = models.DateTimeField(null=True)
+    birthday = models.DateTimeField(null=True,verbose_name="Doğum tarihi")
     meseleginiz = models.CharField(max_length=30,verbose_name="Mesleğiniz",null=True)
     boy = models.CharField(max_length=30,verbose_name="Boy",null=True)
     kilo = models.CharField(max_length=30,verbose_name="Kilo",null=True)

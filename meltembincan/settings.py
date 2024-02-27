@@ -202,23 +202,11 @@ EMAIL_USE_TLS = True
 
 EMAIL_HOST_USER = 'tugrul.tf51@gmail.com'
 
-EMAIL_HOST_PASSWORD = 'ccmzmserrhvyidqx'
+EMAIL_HOST_PASSWORD = ''
 
 DEFAULT_TO_EMAIL = 'fferhattugrul@gmail.com'
 
 DEFAULT_FROM_EMAIL = 'tugrul.tf51@gmail.com'
-
-#------- live e-mail 
-
-
-# EMAIL_HOST_USER = 'toolzon.art@gmail.com'
-
-# EMAIL_HOST_PASSWORD = 'wgiozoxtjnbikbfm'
-
-# DEFAULT_TO_EMAIL = 'toolzon.art@gmail.com'
-
-# DEFAULT_FROM_EMAIL = 'toolzon.art@gmail.com'
-
 
 
 TRANSLATABLE_MODEL_MODULES = []
